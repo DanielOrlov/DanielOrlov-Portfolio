@@ -4,7 +4,7 @@ const ProfessionalSummary = () => {
   return (
     <section className="summary-section" id="summary">
       <div className="summary-container">
-        <div className="summary-divider" />
+        {/* <div className="summary-divider" /> */}
 
         <h2 className="summary-title">Philosophy & Career Goal</h2>
 

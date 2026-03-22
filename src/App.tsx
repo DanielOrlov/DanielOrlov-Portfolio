@@ -6,7 +6,8 @@ export default function App() {
   return (
     <>
       <PersonalData />
-      <section id="spacer"></section>
+      {/* <section id="spacer"></section> */}
+      <div className="summary-divider" />
       <ProfessionalSummary />
     </>
   );
