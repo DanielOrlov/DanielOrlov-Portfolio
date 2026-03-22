@@ -1,0 +1,39 @@
+.personal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+
+  width: 100%;
+  max-width: 900px; /* keeps it tight and centered */
+}
+
+.personal__text {
+  flex: 1;
+  text-align: left;
+}
+
+.personal__image {
+  flex-shrink: 0; /* prevents image from shrinking */
+}
+
+.personal__image img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 1024px) {
+  .personal {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .personal__text {
+    text-align: center;
+  }
+}
