@@ -1,13 +1,13 @@
 import "./css/CapstoneDocumentation.css";
 
-import project_summary from "/src/assets/files/capstone-docs/F25_T03_Project-Summary.pdf";
+import project_summary from "../assets/files/capstone-docs/F25_T03_Project-Summary.pdf";
 import project_vision from "/src/assets/files/capstone-docs/F25_T03_Project-Vision.pdf";
-import project_reqs from "/src/assets/files/capstone-docs/F25_T03_High-Level-Requirements.pdf";
-import project_plan from "/src/assets/files/capstone-docs/W26_T03_Project_Plan_v2.0.pdf";
-import project_req_an from "/src/assets/files/capstone-docs/F25-T03-Requirements_Analysis_and_Design.pdf";
-import project_mockups from "/src/assets/files/capstone-docs/F25_T03_Mockup.pdf";
-import project_stat_rep_1 from "/src/assets/files/capstone-docs/W26_T3_ProjectReport1.pdf";
-import project_stat_rep_2 from "/src/assets/files/capstone-docs/W26_T03_ProjectReport2.pdf";
+import project_reqs from "../assets/files/capstone-docs/F25_T03_High-Level-Requirements.pdf";
+import project_plan from "../assets/files/capstone-docs/W26_T03_Project_Plan_v2.0.pdf";
+import project_req_an from "../assets/files/capstone-docs/F25-T03-Requirements_Analysis_and_Design.pdf";
+import project_mockups from "../assets/files/capstone-docs/F25_T03_Mockup.pdf";
+import project_stat_rep_1 from "../assets/files/capstone-docs/W26_T3_ProjectReport1.pdf";
+import project_stat_rep_2 from "../assets/files/capstone-docs/W26_T03_ProjectReport2.pdf";
 
 const CapstoneDocumentation = () => {
   return (

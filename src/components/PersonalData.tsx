@@ -1,5 +1,5 @@
 import "./css/PersonalData.css";
-import avatar from "/src/assets/avatar.jpg";
+import avatar from "../assets/avatar.jpg";
 
 const PersonalData = () => {
   return (
