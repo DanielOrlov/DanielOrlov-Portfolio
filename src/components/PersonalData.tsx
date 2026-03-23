@@ -1,8 +1,6 @@
 import "./css/PersonalData.css";
 import avatar from "/src/assets/avatar.jpg";
 
-const ResumePath = "/src/assets/files/Daniel-Orlov-resume.pdf";
-
 const PersonalData = () => {
   return (
     <section id="center">
