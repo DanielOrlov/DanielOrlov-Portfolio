@@ -1,5 +1,9 @@
 import "./css/WorkExperience.css";
 
+import kelly_logo from "../assets/img/kelly-services.png";
+import gbc_logo from "../assets/img/gbc-logo.png";
+import crc_logo from "../assets/img/crc-logo.png";
+
 const WorkExperience = () => {
   return (
     <section className="experience" id="experience">
@@ -13,10 +17,7 @@ const WorkExperience = () => {
             <div className="experience-card">
               <div className="experience-card__header">
                 <div className="experience-card__company">
-                  <img
-                    src="/src/assets/img/academic-credentials/gbc-logo.png"
-                    alt="George Brown"
-                  />
+                  <img src={gbc_logo} alt="George Brown" />
                   <div>
                     <h3>Peer Tutor</h3>
                     <p>George Brown Polytechnic</p>
@@ -44,10 +45,7 @@ const WorkExperience = () => {
             <div className="experience-card">
               <div className="experience-card__header">
                 <div className="experience-card__company">
-                  <img
-                    src="/src/assets/img/kelly-services.png"
-                    alt="George Brown"
-                  />
+                  <img src={kelly_logo} alt="Kelly logo" />
                   <div>
                     <h3>Interpreter</h3>
                     <p>Kelly Services</p>
@@ -87,10 +85,7 @@ const WorkExperience = () => {
             <div className="experience-card">
               <div className="experience-card__header">
                 <div className="experience-card__company">
-                  <img
-                    src="/src/assets/img/academic-credentials/gbc-logo.png"
-                    alt="George Brown"
-                  />
+                  <img src={gbc_logo} alt="George Brown" />
                   <div>
                     <h3>Research Student</h3>
                     <p>George Brown Polytechnic</p>
@@ -126,7 +121,7 @@ const WorkExperience = () => {
             <div className="experience-card">
               <div className="experience-card__header">
                 <div className="experience-card__company">
-                  <img src="/src/assets/img/crc-logo.png" alt="George Brown" />
+                  <img src={crc_logo} alt="CRC logo" />
                   <div>
                     <h3>Interpreter</h3>
                     <p>Canadian Red Cross</p>
