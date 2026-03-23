@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import "./css/AcademicWorkExperience.css";
 
-const quietspace_logo = "../assets/img/quietspace-logo.png";
-const api_logo = "../assets/img/docker-logo.jpg";
-const gbc_logo = "../assets/img/academic-credentials/gbc-logo.png";
-const comp3123_project = "../assets/img/employee-management.png";
-const gomoku = "../assets/img/gomoku.png";
-const asp_logo = "../assets/img/asp-logo.jpg";
-const kotlin_logo = "../assets/img/kotlin.jpg";
+import quietspace_logo from "../assets/img/quietspace-logo.png";
+import api_logo from "../assets/img/docker-logo.jpg";
+import gbc_logo from "../assets/img/academic-credentials/gbc-logo.png";
+import comp3123_project from "../assets/img/employee-management.png";
+import gomoku from "../assets/img/gomoku.png";
+import asp_logo from "../assets/img/asp-logo.jpg";
+import kotlin_logo from "../assets/img/kotlin.jpg";
 
 const AcademicWorkExperience = () => {
   return (
