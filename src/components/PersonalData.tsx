@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/PersonalData.css";
 import avatar from "/src/assets/avatar.jpg";
 
