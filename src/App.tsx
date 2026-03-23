@@ -2,6 +2,7 @@
 import AcademicCredentials from "./components/AcademicCredentials";
 import PersonalData from "./components/PersonalData";
 import ProfessionalSummary from "./components/ProfessionalSummary";
+import AcademicWorkExperience from "./components/AcademicWorkExperience";
 
 export default function App() {
   return (
@@ -12,6 +13,8 @@ export default function App() {
       <ProfessionalSummary />
       <div className="summary-divider" />
       <AcademicCredentials />
+      <div className="summary-divider" />
+      <AcademicWorkExperience />
     </>
   );
 }
