@@ -1,6 +1,9 @@
 import "./css/PersonalData.css";
 import avatar from "../assets/avatar.jpg";
 
+import resume from "../assets/files/Daniel-Orlov-resume.pdf";
+import cover_letter from "../assets/files/cover-letter.pdf";
+
 const PersonalData = () => {
   return (
     <section id="center">
@@ -21,17 +24,13 @@ const PersonalData = () => {
           </p>
 
           <div className="personal__actions">
-            <a href="../assets/files/Daniel-Orlov-resume.pdf" className="btn">
+            <a href={resume} className="btn">
               View Resume
             </a>
-            <a
-              href="../assets/files/Daniel-Orlov-resume.pdf"
-              download
-              className="btn"
-            >
+            <a href={resume} download className="btn">
               Download Resume
             </a>
-            <a href="../assets/files/cover-letter.pdf" className="btn">
+            <a href={cover_letter} className="btn">
               View Cover Letter
             </a>
             <a
