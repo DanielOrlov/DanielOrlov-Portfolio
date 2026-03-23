@@ -45,6 +45,26 @@
   box-shadow: var(--shadow);
 }
 
+.project-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.project-card__tag {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 10px;
+
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+
+  white-space: nowrap;
+}
+
 .project-card__image {
   width: 100%;
   height: 200px; /* control the height */

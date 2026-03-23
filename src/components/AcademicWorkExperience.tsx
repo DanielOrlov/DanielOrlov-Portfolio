@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./css/AcademicWorkExperience.css";
 
 const quietspace_logo = "/src/assets/img/quietspace-logo.png";
@@ -26,7 +27,10 @@ const AcademicWorkExperience = () => {
               />
 
               <div className="project-card__content">
-                <h4 className="project-card__title">QuietSpace Mobile App</h4>
+                <div className="project-card_header">
+                  <h4 className="project-card__title">QuietSpace Mobile App</h4>
+                  <span className="project-card__tag">CAPSTONE</span>
+                </div>
 
                 <p className="project-card__description">
                   A mobile app that helps users find quiet spaces using Google
@@ -39,6 +43,9 @@ const AcademicWorkExperience = () => {
                   <a href="https://github.com/DanielOrlov/QuietSpace">
                     QuietSpace Repo
                   </a>
+                </p>
+                <p className="project-card__link">
+                  Documentation: <Link to="/capstone-docs">Link</Link>
                 </p>
 
                 <div className="project-card__stack">

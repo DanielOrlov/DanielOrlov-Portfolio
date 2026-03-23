@@ -1,20 +1,15 @@
-//import "./App.css";
-import AcademicCredentials from "./components/AcademicCredentials";
-import PersonalData from "./components/PersonalData";
-import ProfessionalSummary from "./components/ProfessionalSummary";
-import AcademicWorkExperience from "./components/AcademicWorkExperience";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import HomePage from "./HomePage";
+import CapstoneDocumentation from "./components/CapstoneDocumentation";
 
 export default function App() {
   return (
-    <>
-      <PersonalData />
-      {/* <section id="spacer"></section> */}
-      <div className="summary-divider" />
-      <ProfessionalSummary />
-      <div className="summary-divider" />
-      <AcademicCredentials />
-      <div className="summary-divider" />
-      <AcademicWorkExperience />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/capstone-docs" element={<CapstoneDocumentation />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
