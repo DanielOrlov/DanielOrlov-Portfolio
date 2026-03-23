@@ -1,7 +1,7 @@
 import "./css/CapstoneDocumentation.css";
 
 import project_summary from "../assets/files/capstone-docs/F25_T03_Project-Summary.pdf";
-import project_vision from "/src/assets/files/capstone-docs/F25_T03_Project-Vision.pdf";
+import project_vision from "../assets/files/capstone-docs/F25_T03_Project-Vision.pdf";
 import project_reqs from "../assets/files/capstone-docs/F25_T03_High-Level-Requirements.pdf";
 import project_plan from "../assets/files/capstone-docs/W26_T03_Project_Plan_v2.0.pdf";
 import project_req_an from "../assets/files/capstone-docs/F25-T03-Requirements_Analysis_and_Design.pdf";

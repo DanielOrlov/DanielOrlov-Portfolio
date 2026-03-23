@@ -21,17 +21,17 @@ const PersonalData = () => {
           </p>
 
           <div className="personal__actions">
-            <a href="/src/assets/files/Daniel-Orlov-resume.pdf" className="btn">
+            <a href="../assets/files/Daniel-Orlov-resume.pdf" className="btn">
               View Resume
             </a>
             <a
-              href="/src/assets/files/Daniel-Orlov-resume.pdf"
+              href="../assets/files/Daniel-Orlov-resume.pdf"
               download
               className="btn"
             >
               Download Resume
             </a>
-            <a href="/src/assets/files/cover-letter.pdf" className="btn">
+            <a href="../assets/files/cover-letter.pdf" className="btn">
               View Cover Letter
             </a>
             <a
