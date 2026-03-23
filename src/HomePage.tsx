@@ -1,10 +1,10 @@
 //import "./App.css";
 
-import AcademicCredentials from "./components/AcademicCredentials";
-import PersonalData from "./components/PersonalData";
-import ProfessionalSummary from "./components/ProfessionalSummary";
-import AcademicWorkExperience from "./components/AcademicWorkExperience";
-import WorkExperience from "./components/WorkExperience";
+import AcademicCredentials from "./components/AcademicCredentials.tsx";
+import PersonalData from "./components/PersonalData.tsx";
+import ProfessionalSummary from "./components/ProfessionalSummary.tsx";
+import AcademicWorkExperience from "./components/AcademicWorkExperience.tsx";
+import WorkExperience from "./components/WorkExperience.tsx";
 
 export default function App() {
   return (
