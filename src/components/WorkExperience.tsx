@@ -1,7 +1,7 @@
 import "./css/WorkExperience.css";
 
 import kelly_logo from "../assets/img/kelly-services.png";
-import gbc_logo from "../assets/img/gbc-logo.png";
+import gbc_logo from "../assets/img/academic-credentials/gbc-logo.png";
 import crc_logo from "../assets/img/crc-logo.png";
 
 const WorkExperience = () => {
