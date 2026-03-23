@@ -1,10 +1,10 @@
 import "./css/AcademicCredentials.css";
 
-const gbc_logo = "../assets/img/academic-credentials/gbc-logo.png";
-const step_logo = "../assets/img/academic-credentials/itstep-logo.jpg";
-const humber_logo = "../assets/img/academic-credentials/humber-logo.jpg";
-const humber_degree = "../assets/img/academic-credentials/humber-degree.jpg";
-const deans_letters = "../assets/files/deans-letters.pdf";
+const gbc_logo = "src/assets/img/academic-credentials/gbc-logo.png";
+const step_logo = "src/assets/img/academic-credentials/itstep-logo.jpg";
+const humber_logo = "src/assets/img/academic-credentials/humber-logo.jpg";
+const humber_degree = "src/assets/img/academic-credentials/humber-degree.jpg";
+const deans_letters = "src/assets/files/deans-letters.pdf";
 
 const AcademicCredentials = () => {
   return (
